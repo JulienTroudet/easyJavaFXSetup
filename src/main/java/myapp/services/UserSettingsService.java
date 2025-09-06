@@ -73,7 +73,7 @@ public class UserSettingsService {
             f.close();
 
         } catch (IOException e) {
-            Logger.error(" caught a " + e.getClass() + "\n with message: " + e.getMessage());
+            Logger.error(" caught a {}\n with message: {}", e.getClass(), e.getMessage(), e);
             throw new RuntimeException(e);
         }
     }
