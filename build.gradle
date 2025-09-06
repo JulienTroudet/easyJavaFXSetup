@@ -19,26 +19,19 @@ repositories {
 }
 
 dependencies {
-    implementation 'net.harawata:appdirs:1.2.1'
-    implementation 'com.google.code.gson:gson:2.10.1'
-    implementation 'org.apache.commons:commons-lang3:3.13.0'
-    implementation 'org.apache.commons:commons-collections4:4.5.0-M1'
-    implementation 'commons-io:commons-io:2.16.1'
-    implementation 'org.apache.maven.plugins:maven-compiler-plugin:3.13.0'
+    implementation 'net.harawata:appdirs:1.4.0'
+    implementation 'com.google.code.gson:gson:2.13.1'
+    implementation 'org.apache.commons:commons-lang3:3.18.0'
+    implementation 'commons-io:commons-io:2.20.0'
+    implementation 'org.apache.maven.plugins:maven-compiler-plugin:3.14.0'
     implementation 'org.tinylog:tinylog-api:2.7.0'
     implementation 'org.tinylog:tinylog-impl:2.7.0'
-    implementation 'io.github.mkpaz:atlantafx-base:2.0.1'
-    implementation 'org.kordamp.ikonli:ikonli-core:12.3.1'
-    implementation 'org.kordamp.ikonli:ikonli-javafx:12.3.1'
-    implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'
-    implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.3.1'
-    implementation 'net.java.dev.jna:jna:5.8.0'
-    implementation 'net.java.dev.jna:jna-platform:5.8.0'
-    implementation 'org.fxmisc.richtext:richtextfx:0.11.3'
+    implementation 'io.github.mkpaz:atlantafx-base:2.1.0'
+    implementation 'org.kordamp.ikonli:ikonli-core:12.4.0'
+    implementation 'org.kordamp.ikonli:ikonli-javafx:12.4.0'
+    implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'
+    implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.4.0'
 
-    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
-    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.0'
-    testImplementation 'org.mockito:mockito-core:5.13.0'
 }
 
 javafx {

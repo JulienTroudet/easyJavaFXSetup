@@ -61,6 +61,7 @@ Contributions are welcome! Feel free to suggest improvements via issues or pull 
 
 ## 📄 License
 This project is licensed under the **MIT** License. You are free to use and modify it as needed.
+The default project icon was generated at https://game-icons.net/
 
 ---
 💡 **MyApp** allows you to start a JavaFX project without worrying about complex configurations. Enjoy and create powerful applications right from the start! 🚀

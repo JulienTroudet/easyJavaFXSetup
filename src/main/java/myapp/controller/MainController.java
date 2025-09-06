@@ -26,7 +26,11 @@ public class MainController implements Initializable {
     public Stage stage;
 
 
-
+    /**
+     *
+     * loads the FXML file located in src/main/resources/myapp/controller/main.fxml
+     *
+     */
     public static void load(Stage stage) {
         try {
             ResourceBundle resourceBundle =
